@@ -1,0 +1,1 @@
+export default function ScaffoldCard({title,content}:{title:string;content:string}){return <div className="p-3 rounded bg-blue-100"><h3 className="font-semibold">{title}</h3><p className="text-sm">{content}</p></div>}
